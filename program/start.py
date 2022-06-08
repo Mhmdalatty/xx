@@ -64,7 +64,7 @@ async def start_(client: Client, message: Message):
         photo=f"https://telegra.ph/file/1235a68b124c4dee8c11e.jpg",
         caption=f"""✨ **مرحبا عزيزي » {message.from_user.mention()} !**\n
 🤖 **[Ξ𝗜𝗧𝗛𝗢𝗡 𝗠𝗨𝗜𝗦𝗖 🎶](https://t.me/{BOT_USERNAME}) **
-**⌯ انا ريو استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
+**⌯ انا بوت استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
 
 ⌯ تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 اوامر التشغيل !
 
@@ -76,7 +76,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• حساب المساعد •", url="https://t.me/{ASSISTANT_NAME}",
+                        "• لشراء بوت •", url="https://t.me/TTTLL0",
                     )
                 ],
                 [InlineKeyboardButton("❓ طريقة التفعيل", callback_data="cbhowtouse"),
@@ -107,8 +107,8 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["سورس ايثون", f"سورس إيثون", f"سورس", f"السورس", f"alive", f"live"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/29b4962106bc42c258420.jpg",
-        caption=f"""Welcome to Source Evan for Music Bots""",
+        photo=f"https://telegra.ph/file/1235a68b124c4dee8c11e.jpg",
+        caption=f"""اهلا بك في سورس ايثون ميوزك بوت""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
@@ -200,7 +200,7 @@ async def new_chat(c: Client, m: Message):
         if member.id == bot_id:
             return await m.reply(
                 "❤️ **شكرا لإضافتي إلى المجموعة !**\n\n"
-                "قم بترقيتي كمسؤول عن المجموعة لكي أتمكن من العمل بشكل صحيح\nولا تنسى كتابة `/انضم` لدعوة الحساب المساعد\nقم بكتابة`/تحديث` لتحديث قائمة المشرفين",
+                "قم بترقيتي كمسؤول عن المجموعة لكي أتمكن من العمل بشكل صحيح\nولا تنسى كتابة `انضم` لدعوة الحساب المساعد\nقم بكتابة`تحديث` لتحديث قائمة المشرفين",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
