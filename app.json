@@ -12,8 +12,8 @@
         "pyrogram"
     ],
     "website": "https://t.me/EITHON1",
-    "repository": "https://github.com/byffyyffu/00",
-    "success_url": "https://t.me/MusicJoker7x",
+    "repository": "https://github.com/Mhmdalatty/xx",
+    "success_url": "https://t.me/EITHMU",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -90,7 +90,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/byffyyffu/00"
+            "value": "https://github.com/Mhmdalatty/xx"
         }
     },
     "addons": [],
